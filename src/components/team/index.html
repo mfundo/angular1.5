@@ -1,0 +1,8 @@
+
+<div class="" ng-repeat="member in team.list">
+	<h3>{{member.name}}</h3>
+	<h4>{{member.title}}</h4>
+	<a ui-sref="member({ memberName: member.name })">
+		profile
+	</a>
+</div>
